@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/SpeedProg/';
+$config['base_url']	= 'http://localhost/forgeselh/';
 
 $config['template'] = "";
 
