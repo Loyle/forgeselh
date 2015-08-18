@@ -26,12 +26,31 @@
 					<li><a href="<?php echo base_url(); ?>">Accueil</a></li>
 					<li><a href="#contact">Contact</a></li>
 				  </ul>
-				  <ul class="nav navbar-nav navbar-right">
-					<form class="navbar-form">
-						<a href="<?php echo base_url(); ?>members/inscription" type="button" class="btn btn-primary">Inscription</a>
-						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLogin">Connexion</button>
-					</form>
-				  </ul>
+				  <!-- MODULE DE CONNEXION -->
+                <button class="btn btn-primary login_btn" type="button" , data-toggle="modal" data-target="#login" aria-hiiden="true">
+                    Connexion
+                </button>
+                <div class="modal fade text-left" id="login">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header  text-center">
+                                <h2>Connexion au compte</h2>
+                            </div>
+                            <?php echo form_open( 'members/login'); ?>
+                            <div class="modal-body">
+                                <label for="username">Votre identifiant: </label>
+                                <input class="form-control" type="text" id="username" name="username" placeholder="Votre pseudo" required="required" />
+                                <label for="password">Votre mot de passe: </label>
+                                <input class="form-control" type="password" name="password" id="password" placeholder="Votre mot de passe" required="required"/>
+                            </div>
+                            <div class="modal-footer">
+                                	<button type="submit" class="btn btn-primary pull-right">Connexion</button>
+                                	<a class="pull-left" href="<?php echo base_url(); ?>members/inscription">Pas encore de compte?</a>
+                            	</div>
+                            	<?php echo form_close(); ?>
+                        	</div>
+                    	</div>
+                	</div>
 				</div><!--/.nav-collapse -->
 			  </div>
 		</nav>
