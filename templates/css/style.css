@@ -2,11 +2,14 @@ h1, h2, h3 {
 	margin: 0px;
 }
 
-.btn {
-	border-radius: 0px;
+input[type="submit"]{
 }
 
+input[type="submit"]:hover{
+	background-color: #E6E6E6;
+}
 
+<<<<<<< HEAD
 
 /* PAGE D'ACCUEIL */
 .menu {
@@ -14,12 +17,17 @@ h1, h2, h3 {
 	color: white;
 	height: 70px;
 	border-bottom: 2px solid #6699ff;
+=======
+footer.footer{
+	background-color: black;
+>>>>>>> origin/master
 }
-.menu .site_title {
-	line-height: 70px;
-	padding-left: 15px;
-	padding-right: 15px;
-	background: #6699ff;
-	width: 150px;
-	text-align: center;
+
+
+/* CORPS */
+
+div.body{
+	margin-top: 60px;
 }
+
+/* PAGE D'ACCUEIL */
