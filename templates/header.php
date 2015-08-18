@@ -10,6 +10,24 @@
 	</head>
 
 	<body>
+		<div id="modalLogin" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
+			<!-- Modal content-->
+			<div class="modal-content">
+			  <div class="modal-header bg-primary">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Connexion</h4>
+			  </div>
+			  <div class="modal-body">
+				<p>Some text in the modal.</p>
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	
 		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
 			  <div class="container">
 				<div class="navbar-header">
@@ -28,7 +46,7 @@
 				  </ul>
 				  <ul class="nav navbar-nav navbar-right">
 					<form class="navbar-form">
-						<a href="<?php echo base_url(); ?>members/inscription" type="button" class="btn btn-primary">Inscription</a>
+						<a href="<?php echo base_url(); ?>members/registration" type="button" class="btn btn-primary">Inscription</a>
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLogin">Connexion</button>
 					</form>
 				  </ul>

@@ -1,9 +1,9 @@
 <?php 
 class Members extends CI_Controller{
 	
-	public function inscription()
+	public function registration()
 	{
-		$this->layout->view('members/inscription');
+		$this->layout->view('members/registration');
 	}
 	
 }
