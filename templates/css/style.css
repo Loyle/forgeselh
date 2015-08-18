@@ -45,5 +45,6 @@ footer {
 /* CORPS */
 
 div.body{
-	margin-top: 60px;
+	margin-top: 80px;
+	margin-bottom: 20px;
 }

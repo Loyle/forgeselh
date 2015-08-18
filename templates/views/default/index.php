@@ -1,3 +1,3 @@
-<div class="leftBody">
+<div class="container leftBody">
 	Corps de texte
 </div>
