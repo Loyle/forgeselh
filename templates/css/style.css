@@ -14,6 +14,9 @@ input[type="submit"]:hover{
 .modal {
 	z-index: 500;
 }
+.modal-content{
+	border-radius: 0px;
+}
 .modal-backdrop.in {
 	z-index: 400;
 }
@@ -33,12 +36,6 @@ footer {
 }
 .login_btn {
 	float: right;
-	margin-top: 8px;
-}
-.modal-header {
-	background: #6699ff;
-	border-bottom-right-radius 10px;
-	border-bottom-left-radius 10px;
 }
 
 
