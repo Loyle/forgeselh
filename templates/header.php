@@ -7,6 +7,8 @@
 		<link rel="stylesheet" href="<?php echo base_url(); ?>templates/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>templates/css/bbcode.css"/>
 		<link rel="stylesheet" href="<?php echo base_url(); ?>templates/css/style.css"/>	
+
+		<meta charset="utf-8" />
 	</head>
 
 	<body>
@@ -47,7 +49,7 @@
 <<<<<<< HEAD
 				  <ul class="nav navbar-nav navbar-right">
 					<form class="navbar-form">
-						<a href="<?php echo base_url(); ?>members/registration" type="button" class="btn btn-primary">Inscription</a>
+						<a href="<?php echo base_url(); ?>members/register" type="button" class="btn btn-primary">Inscription</a>
 						<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLogin">Connexion</button>
 					</form>
 				  </ul>

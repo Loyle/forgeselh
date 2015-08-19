@@ -1,7 +1,7 @@
 <div class="inscription">
 	<fieldset>
 	<legend>Inscription</legend>
-		<form class="form-horizontal">
+		<form class="form-horizontal col-lg-offset-3 col-lg-6">
 			<div class="form-group">
 				<label class="col-sm-2 control-label" for="cPseudo">Pseudonyme (*)</label>
 				<div class="col-sm-10">
